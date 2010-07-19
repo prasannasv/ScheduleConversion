@@ -1,0 +1,28 @@
+A zone contains many centers
+We have 4 to 5 zones.
+
+East west north south within tamilnadu
+outside tamilnadu - OTN
+Overseas
+
+For each center - sector co-ordinator and zonal co-ordinator
+
+OTN 
+Trivandram, Bangalore, Hyderabad, Vizag, Calcutta - handled by Lokanetra - Sector co-ordinator (determines when the class should be there).
+Zonal co-ordinator - maa kashyapi
+
+Expected format of the excel
+
+Final output
+Consolidated 
+Individual teachers
+
+Access db
+
+Center name - Zone name - Sector co-ord - zonal co-ord
+
+Use this to get the Sector co-ord name.
+
+Email - 
+
+end date - find it as the end of merged cell instead of going till end.
