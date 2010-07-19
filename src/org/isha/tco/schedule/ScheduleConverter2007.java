@@ -507,7 +507,8 @@ public class ScheduleConverter2007 {
             List<String> markedTeachers = new ArrayList<String>();
             int endRow = inputSheet.getLastRowNum();
             for(int row = startRow; row < endRow; row++) {
-                Cell teacherCell = inputSheet.getRow(row).getCell(TEACHER_START_COL);
+                Row candidateRow = inputSheet.getRow(row);
+                Cell teacherCell = candidateRow == null ? null : candidateRow.getCell(TEACHER_START_COL);
                 String cellValue = teacherCell == null ? "" : teacherCell.getStringCellValue();
                 String teacher = cellValue == null ? "" : cellValue.trim();
 
